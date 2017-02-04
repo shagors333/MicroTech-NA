@@ -1,3 +1,18 @@
+
+.SerIcon i{
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 15px;
+}
+.serCon h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #333;
+}
+
 /*===================
 /MenuSec
 ======================*/
@@ -31,3 +46,4 @@
 /*===================
 /MenuSec
 ======================*/
+
