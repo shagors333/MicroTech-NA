@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     $('.sSlider').owlCarousel({
         items: 1,
@@ -52,5 +53,5 @@ $(document).ready(function () {
         e.preventDefault();
         $('html, body').animate({scrollTop: 0}, 800);
     });
-});
+
 
