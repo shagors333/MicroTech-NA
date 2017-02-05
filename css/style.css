@@ -1,49 +1,150 @@
+/*
+ =====================start service section=============
+*/
+.serviceSec{
+    position: relative;
+    padding: 80px 0;
+    width: 100%;
+    height: auto;
+    background: #f1f1f1;
+}
+.serviceContent{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
 
 .SerIcon i{
     font-size: 20px;
-    border: 1px solid #000;
+    border: 2px solid #32CCE2;
     border-radius: 50%;
-    padding: 15px;
+    padding: 20px;
+    color: #32CCE2;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    margin-top: 20px;
+    margin-bottom: 13px;
 }
-.serCon h2{
-    font-size: 20px;
+
+.SerIcon i:hover{
+    background: #32CCE2;
+    border-color: #32CCE2;
+    visibility: hidden;
+    opacity: 0;
+    color: #fff;
+}
+.serviceContent:hover .SerIcon i:hover{
+    visibility: visible;
+    opacity: 1;
+}
+.serText h2{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 7px;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+}
+.serText h2:hover{
+    color: #32CCE2;
+}
+.serText p{
+    color: #888;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+
+}
+
+/*
+-----------------
+end service section
+------------------*/
+
+/*
+-----------------
+start contact section
+------------------*/
+.contactSec{
+    position: relative;
+    padding: 80px 0;
+    width: 100%;
+    height: 500px;;
+    background: url(../images/bg1.png) no-repeat center center /cover;
+}
+.contactInfo{
+    margin-top: 40px;
+    margin-bottom: 44px;
+}
+.contactInfo h3{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.contactInfo p{
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #333;
+    line-height: 20px;
+}
+
+.infoName{
+    width: 100%;
+    height: auto;
+
+}
+.inName{
+    width: 48%;
+    float: left;
+    height: auto;
+}
+.inputName {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    color: #333;
+    text-transform: capitalize;
+    padding: 15px;
+    border: thin solid #d1d1d1;
+    margin-bottom: 20px;
+}
+.emailName{
+    width: 48%;
+    height: auto;
+    float: left;
+    margin-left: 44px;
+
+}
+.msg{
+    width: 100%;
+    height: 200px;
+    color: #333;
+    padding: 15px;
+    resize: none;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 0 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.conBtn a {
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: #333;
-}
-
-/*===================
-/MenuSec
-======================*/
-.MenuSec{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background: #000;
-}
-.logo{
-    width: 100%;
-    height: 100%;
-}
-.logo a{
-    font-size: 20px;
+    background: #333;
+    padding: 11px 40px;
     color: #fff;
-    font-size: 30px;
-    font-family: 'Kaushan Script', cursive;
 }
-.logo P{
-    color: #fff;
-    font-size: 18px;
-}
-.Menu{
-    width: 100%;
-    height: 100%;
-}
-.Menu ul li{
-    display: inline-block;
-}
-/*===================
-/MenuSec
-======================*/
-
