@@ -38,14 +38,14 @@ nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
     padding-right: 0 !important;
 }
 .noMargin {
-	margin-left: 0 !important;
-	margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 .noMarginLeft{
-	margin-left: 0 !important;
+    margin-left: 0 !important;
 }
 .noMarginRight{
-	margin-right: 0 !important;
+    margin-right: 0 !important;
 }
 /*========================
 /Margin & Padding Setting End here 
@@ -54,17 +54,22 @@ nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
 /Fixed all Element Start here
 =============================*/
 
-.BackTo{
-    background: #fff none repeat scroll 0 0;
-    bottom: 68px;
+.BackTo {
+    background: #000 none repeat scroll 0 0;
+    bottom: 50px;
     color: #979797;
     font-size: 20px;
-    height: 30px;
-    left: 48%;
+    height: 50px;
+    right: 30px;
     position: absolute;
     text-align: center;
     width: 50px;
     z-index: 9;
+}
+.BackTo i{
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
 }
 .Searchfixed{
     position: fixed;
@@ -88,7 +93,7 @@ nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
     top: 0;
     z-index: 9999;
     width: 100%;
-    background: #F8F8F8;
+    background: #000;
 }
 /*==========================
 /Fixed all Element end here
