@@ -1,49 +1,54 @@
+.serviceContent{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
 
 .SerIcon i{
     font-size: 20px;
-    border: 1px solid #000;
+    border: 2px solid #32CCE2;
     border-radius: 50%;
-    padding: 15px;
-}
-.serCon h2{
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: #333;
+    padding: 20px;
+    color: #32CCE2;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    margin-top: 20px;
+    margin-bottom: 13px;
 }
 
-/*===================
-/MenuSec
-======================*/
-.MenuSec{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background: #000;
-}
-.logo{
-    width: 100%;
-    height: 100%;
-}
-.logo a{
-    font-size: 20px;
+.SerIcon i:hover{
+    background: #32CCE2;
+    border-color: #32CCE2;
+    visibility: hidden;
+    opacity: 0;
     color: #fff;
-    font-size: 30px;
-    font-family: 'Kaushan Script', cursive;
 }
-.logo P{
-    color: #fff;
-    font-size: 18px;
+.serviceContent:hover .SerIcon i:hover{
+    visibility: visible;
+    opacity: 1;
 }
-.Menu{
-    width: 100%;
-    height: 100%;
+.serText h2{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 7px;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
 }
-.Menu ul li{
-    display: inline-block;
+.serText h2:hover{
+    color: #32CCE2;
 }
-/*===================
-/MenuSec
-======================*/
+.serText p{
+    color: #888;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    
+}
 
