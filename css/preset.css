@@ -25,6 +25,30 @@ nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
     padding: 0;
 }
 
+
+
+.commonTitle h2{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #333;
+    position: relative;
+    margin-bottom: 20px;
+}
+.commonTitle h2:after{
+    position: absolute;
+    left:0;
+    top: 35px;
+    width: 60px;
+    height: 2px;
+    color: #32CCE2;
+    content: '';
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background: #32CCE2;
+}
 /*========================
 /Margin & Padding Setting Start here
 ==========================*/
