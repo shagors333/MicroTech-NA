@@ -1,5 +1,4 @@
 $(document).ready(function () {
- $('.Sslider').owlCarousel({
         items: 3,
         loop: true,
         nav: false,
