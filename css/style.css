@@ -127,6 +127,8 @@ start contact section
 }
 .msg{
     width: 100%;
+
+    position: relative;
     height: 200px;
     color: #333;
     padding: 15px;
@@ -152,6 +154,7 @@ start contact section
     -moz-transition: all ease 500ms;
     -webkit-transition: all ease 500ms;
     -o-transition: all ease 500ms;
+
 }
 .conBtn a:hover{
     background:#333;
@@ -170,6 +173,11 @@ end contact section
     font-weight: 400;
     text-transform: capitalize;
     color: #fff;
+    position: absolute;
+    left: 0;
+    top: 136px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
     margin-top: 13px;
 }
 .footerwedget p a{
