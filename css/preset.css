@@ -25,7 +25,9 @@ nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
     padding: 0;
 }
 
-
+.displayNone{
+    display: none;
+}
 
 .commonTitle h2{
     font-size: 22px;
@@ -86,7 +88,7 @@ nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
     font-size: 20px;
     height: 50px;
     right: 30px;
-    position: absolute;
+    position: fixed;
     text-align: center;
     width: 50px;
     z-index: 9;
