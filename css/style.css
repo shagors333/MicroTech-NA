@@ -520,3 +520,118 @@ end contact section
 /*===================
 /CmFooterSec End here by shagor
 ======================*/
+
+/*==========================Service Page all Css Including here=======================*/
+.SPBanerSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/servicebaner.jpg) no-repeat center center / cover;
+}
+.SPBanerSec:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.1);
+}
+.SpBanerSingle{
+    padding: 184px 0 168px;
+}
+.SpBanerSingle h2{
+    font-size: 75px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+/*===================
+/SpItemSec Start here by shagor
+======================*/
+.SpItemSec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 72px 0 52px;
+}
+.singleSpItem{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.SingleSpImage{
+    width: 100%;
+    height: 186px;
+    overflow: hidden;
+    position: relative;
+}
+.SingleSpImage:hover .SPSingleSpOver{
+    visibility: visible;
+    opacity: 1;
+}
+.SingleSpImage img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    transform: scale(1);
+    transition:all ease 600ms;
+    -moz-transition:all ease 600ms;
+    -webkit-transition:all ease 600ms;
+    -o-transition:all ease 600ms;
+}
+.SingleSpImage:hover img{
+    transform: scale(1.1);
+}
+.SPSingleSpOver{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(236, 182, 34, 0.6);
+    visibility: hidden;
+    opacity: 0;
+    transition:all ease 800ms;
+    -moz-transition:all ease 800ms;
+    -webkit-transition:all ease 800ms;
+    -o-transition:all ease 800ms;
+}
+.SpFaLink{
+    bottom: 0;
+    color: #fff !important;
+    font-size: 28px !important;
+    height: 20px;
+    left: 0;
+    margin: auto !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+}
+.singleSpItem a {
+    color: #383838;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 32px 0 20px;
+    text-transform: none;
+}
+.singleSpItem p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000;
+}
+.SingleSpSix{
+    margin-top: 49px;
+}
+/*===================
+/SpItemSec End here by shagor
+======================*/
