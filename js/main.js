@@ -24,6 +24,57 @@ $(document).ready(function () {
             }
         }
     });
+    /*Design Page Slidertwo**/
+    $('.DesignSlideTwo').owlCarousel({
+        items: 1,
+        loop: true,
+        nav: false,
+        dots: false,
+        pagination: true,
+        touchDrag: true,
+        responsiveClass: true,
+        navigationText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
+        navigation: true,
+        autoPlay: false,
+        mouseDrag: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            640: {
+                items: 3
+            },
+            1000: {
+                items: 6
+            }
+        }
+    });
+    /*DesignPage Slider Three Start here*/
+    $('.DSliderThree').owlCarousel({
+        items: 1,
+        loop: true,
+        nav: false,
+        dots: false,
+        pagination: true,
+        touchDrag: false,
+        responsiveClass: true,
+        navigationText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
+        navigation: true,
+        autoPlay: false,
+        mouseDrag: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            640: {
+                items: 3
+            },
+            1000: {
+                items: 6
+            }
+        }
+    });
+    /*DesignPage Slider Three End here*/
     /*FixHeader Start By Shagor */
     $(window).on('scroll', function () {
         if ($(window).scrollTop() > 0)
