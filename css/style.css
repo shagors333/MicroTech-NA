@@ -363,7 +363,7 @@ end contact section
 }
 .Submenu {
     width: 219px;
-    height: 126px;
+    height: 170px;
     background: #000;
     position: absolute;
     left: 0;
@@ -1803,6 +1803,266 @@ contact form
     width: 100%;
 }
 /*==========================About US Page all Css Including end here By Rasel=======================*/
+/*==========================Service_Four Page all Css Including Start here By Shagor=======================*/
+.ServiceFourMenu{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 710px;
+    position: relative;
+    background:url(../images/S4banner.jpg) no-repeat center center / cover;
+}
+.SerViceFourMenu{
+    background: rgba(255, 255, 254, 0.7) none repeat scroll 0 0;
+    height: 50px;
+    padding: 12px 0;
+    width: 100%;
+}
+.SerFourLeftMenu a,.SerFourRightMenu a{
+    color: #2e2e2e;
+    font-size: 18px;
+    font-family: '', sans-serif;
+    text-transform: capitalize;
+}
+.SerFourComHeading{
+    height: 100%;
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+}
+.SerFourHeadAbs{
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: -116px;
+    width: 571px;
+}
+
+.SerFourHeadAbs h1{
+    color: #2e2e2e;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0;
+    padding-top: 7px;
+    text-transform: uppercase;
+}
+.SerFourHeadAbs h2{
+    color: #7f7f7f;
+    font-size: 36.0857px;
+    line-height: 1.3;
+}
+.ChreeSec {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.ChreeSec:before{
+    background: rgba(0, 0, 0, 0) url("../images/cheeryright.jpg") no-repeat scroll center center / cover ;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+}
+.SingleCheery{
+    font-family: "Raleway",sans-serif;
+    height: 100%;
+    overflow: hidden;
+    padding: 75px 0 70px;
+    position: relative;
+    width: 100%;
+}
+.SingleCheery h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #7F7F7F;
+    padding-bottom: 8px;
+}
+.SingleCheery p{
+    font-size: 24px;
+    line-height: 1.4em;
+    color: #7f7f7f;
+}
+.downloagBtn{
+    border: 5px solid #ff5d4c;
+    border-radius: 0;
+    color: #2e2e2e;
+    font-size: 22px;
+    outline: medium none !important;
+    padding: 7px;
+    text-transform: capitalize;
+    transition: all 0.5s ease 0s;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 22px;
+}
+.downloagBtn:hover{
+    color: #ff5d4c;
+}
+.CheeryPositive{
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    padding-bottom: 17px;
+    position: relative;
+    width: 100%;
+}
+.creeryLogo{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.creeryLogo img{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.creeryLogo h2{
+    color: #cfcfcf;
+    font-size: 24px;
+    line-height: 1.2em;
+    padding: 0 0 12px;
+}
+.anotherOne:before{
+    background: url(../images/cheeryanother.jpg) no-repeat center center / cover;
+    left:0;
+    top: 0;
+}
+.SingleCheeryAnother{
+    padding-left: 25px;
+}
+.SingleCheeryAnother p{
+    padding-bottom: 30px;
+}
+.AnotherdownBtn{
+    border-color: #000;
+}
+.MoreWork{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #FF5D4C;
+}
+.workHeading{
+    padding: 70px 0 75px;
+}
+.workHeading h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+}
+/*
+rasel*/
+.folioImg{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.folioImg.folioImg1{
+    float: left;
+    width: 50%;
+
+}
+.folioImg.folioImg2{
+    float: left;
+    width: 50%;
+}
+.folioImg img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.imgoverLay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255 ,.8);
+    opacity: 0;
+    visibility: hidden;
+    transition:all ease 600ms;
+    -moz-transition:all ease 600ms;
+    -webkit-transition:all ease 600ms;
+    -o-transition:all ease 600ms;
+}
+.folioImg:hover .imgoverLay{
+    visibility: visible;
+    opacity: 1;
+}
+.folioImg:hover .fOverText{
+    visibility: visible;
+    transform: translate(0px, 40px);
+    opacity: 1;
+}
+.folioImg:hover .OverBtn{
+    visibility: visible;
+    transform: translate(0px, -25px);
+    opacity: 1;
+}
+.fOverText {
+    bottom: 0;
+    font-family: "Raleway",sans-serif;
+    height: auto;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.7s ease 0s;
+    width: 100%;
+    top: 200px;
+    opacity: 0;
+    visibility: hidden;
+}
+.fOverText h2 {
+    color: #2e2e2e;
+    font-size: 4.65em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.OverBtn {
+    bottom: 59px;
+    left: 0;
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    transition: all 0.7s ease 0s;
+    visibility: hidden;
+}
+.OverBtn p {
+    color: #7f7f7f;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-align: center;
+    transition: all 0.7s ease 0s;
+    margin-bottom: 21px;
+}
+.OverBtn a {
+    border: 4px solid #ff7264;
+    color: #333;
+    font-family: "Raleway",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    transition:all ease 600ms;
+    -moz-transition:all ease 600ms;
+    -webkit-transition:all ease 600ms;
+    -o-transition:all ease 600ms;
+}
+.OverBtn a:hover{
+    color: #ff7264;
+}
+/*==========================Service_Four Page all Css Including end here By Shagor=======================*/
 
 /*
 -------------------------------
