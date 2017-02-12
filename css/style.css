@@ -1804,3 +1804,167 @@ contact form
 }
 /*==========================About US Page all Css Including end here By Rasel=======================*/
 
+/*
+-------------------------------
+work page rasel
+--------------------------------
+*/
+.workTitleSec{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px 0;
+}
+.workTitle h1 {
+    color: #2e2e2e;
+    font-family: "Raleway",sans-serif;
+    font-size: 100px !important;
+    font-weight: 900;
+    line-height: 1em;
+    margin: 0 0 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.workTitle p{
+    color: #7f7f7f;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*
+---------------------------
+start folio section
+-------------------------*/
+.folioSec{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.folioImg{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.folioImg.folioImg1{
+    float: left;
+    width: 50%;
+
+}
+.folioImg.folioImg2{
+    float: left;
+    width: 50%;
+}
+.folioImg img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.imgoverLay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255 ,.8);
+    opacity: 0;
+    visibility: hidden;
+    transition:all ease 600ms;
+    -moz-transition:all ease 600ms;
+    -webkit-transition:all ease 600ms;
+    -o-transition:all ease 600ms;
+}
+.folioImg:hover .imgoverLay{
+    visibility: visible;
+    opacity: 1;
+}
+.folioImg:hover .fOverText{
+    visibility: visible;
+    transform: translate(0px, 40px);
+    opacity: 1;
+}
+.folioImg:hover .OverBtn{
+    visibility: visible;
+    transform: translate(0px, -25px);
+    opacity: 1;
+}
+.fOverText {
+    bottom: 0;
+    font-family: "Raleway",sans-serif;
+    height: auto;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.7s ease 0s;
+    width: 100%;
+    top: 200px;
+    opacity: 0;
+    visibility: hidden;
+}
+.fOverText h2 {
+    color: #2e2e2e;
+    font-size: 4.65em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.OverBtn {
+    bottom: 220px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    transition: all 0.7s ease 0s;
+    visibility: hidden;
+    opacity: 0;
+}
+.OverBtn p {
+    color: #7f7f7f;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-align: center;
+    transition: all 0.7s ease 0s;
+    margin-bottom: 21px;
+}
+.OverBtn a {
+    border: 4px solid #ff7264;
+    color: #333;
+    font-family: "Raleway",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    transition:all ease 600ms;
+    -moz-transition:all ease 600ms;
+    -webkit-transition:all ease 600ms;
+    -o-transition:all ease 600ms;
+}
+.OverBtn a:hover{
+    color: #ff7264;
+}
+.folioimgContent {
+    background: rgb(127, 165, 136) none repeat scroll 0 0;
+    padding: 214.5px 0;
+}
+.folioimgContent p {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 300;
+    padding-left: 23px;
+}
+.folioimgContent.folioimgContent1{
+    background: #ff7264;
+}
+/*
+---------------------------
+end folio section
+
+
+    
+-------------------------*/
