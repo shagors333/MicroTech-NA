@@ -1217,7 +1217,7 @@
         font-size: 42px;
         font-weight: 700;
     }
-    a {
+    .DiscusBTn {
         background: #88ba00 none repeat scroll 0 0;
         border-radius: 9px;
         color: #fff;
@@ -1229,17 +1229,17 @@
         position: relative;
         text-transform: uppercase;
         width: 246px;
+        display: inline-block;
         z-index: 999;
         overflow: hidden;
         &:before {
             position: absolute;
             content: '';
             width: 246px;
-            height: 0;
+            height: 10px;
             border-radius: 9px;
             left: 0;
             top: 0;
-            z-index: 9;
             background: rgba(157, 211, 10, 0.4);
             transition: all ease 600ms;
             visibility: hidden;
@@ -1248,7 +1248,9 @@
         &:hover:before {
             visibility: visible;
             opacity: 1;
+            transition: all 0.25s cubic-bezier(.66,.36,.17,.91);
             height: 57px;
+            top: 57px;
         }
     }
     > a > i {
