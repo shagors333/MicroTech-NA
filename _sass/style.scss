@@ -1529,7 +1529,7 @@
 }
 
 .countryHead2 {
-    padding: 37px 0 10px;
+    padding: 80px 0 20px;
 }
 
 .hoby {
@@ -1714,6 +1714,16 @@
     height: 100%;
     position: relative;
     background: #ff5d4c;
+    .folioImg{
+        &:hover{
+            .fOverText{
+                top: 50px; 
+            }
+            .OverBtn {
+/*                top: 50px;*/
+            }
+        }
+    }
 }
 
 .workHeading {
