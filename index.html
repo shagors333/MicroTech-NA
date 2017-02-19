@@ -1,42 +1,20 @@
-<!DOCTYPE Html>
-<html>
-    <head>
-        <title>Write Tamplate title here</title>
+---
+layout: micro
+title: Home
+---
+<!--SliderSec Start here By shagor-->
 
-        <!--all meta tag-->
+{% include mainslider.html %}
 
-        <meta charset="UTF-8">
-        <meta name="keywords" content="html,css,js,xml,bootstrap">
-        <meta name="Author" content="Shagor">
-        <meta name="description" content="this is our project class and HW">
+<!--SliderSec End here-->
 
-        <meta name="viewport" content="width=device-width">
+<!--start service section-->
+{% include section_service.html %}
 
-        <!-- All CSS Files -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
-        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
-        <link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
-        <link rel="stylesheet" type="text/css" href="css/owl.theme.css"/>
-        <link rel="stylesheet" type="text/css" href="css/settings.css"/>
-        <link rel="stylesheet" type="text/css" href="css/preset.css"/>
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
-        <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
-        <!-- End CSS Including -->
-    </head>
-    <body>
+<!--End service section-->
+{% include section_industry.html %}
+<!--start contact section-->
+{% include sec_contact.html %}
 
-        <!-- All JS Files --> 
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="js/jquery.appear.js"></script>
-        <script type="text/javascript" src="js/parallax.min.js"></script>
-        <script type="text/javascript" src="js/mixer.js"></script>
-        <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
-        <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-        <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="js/wow.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>  
-    </body>
-</html>
+
+<!--End Contact Section-->
