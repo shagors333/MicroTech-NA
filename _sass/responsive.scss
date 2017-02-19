@@ -2,6 +2,18 @@
   .logo {
     width: 100%;
     text-align: center;
+    a{
+        font-size: 14px;
+    }
+    P{
+        display: none;
+    }
+  }
+  .MenuSec{
+      height: auto;
+  }
+  .socail{
+      padding: 10px 0;
   }
   .MobileMenu {
     cursor: pointer !important;
@@ -10,7 +22,7 @@
     line-height: 0.2;
     width: 30px;
     position: absolute;
-    top: 39px;
+    top: 13px;
     right: 17px;
     z-index: 9999;
     span {
@@ -28,7 +40,7 @@
       position: absolute;
       right: 0;
       text-align: center;
-      top: 101px;
+      top: 51px;
       width: 100%;
       z-index: 999;
       opacity: .7;
@@ -50,4 +62,12 @@
       }
     }
   }
+  .mainSliderSec{
+      margin-top: 78px;
+  }
+}
+@media (min-width: 360px) and (max-width: 640px) {
+    body{
+        
+    }
 }
