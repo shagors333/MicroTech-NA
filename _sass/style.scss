@@ -206,10 +206,13 @@
 }
 
 .MenuSec {
+    background: rgb(15, 124, 173) none repeat scroll 0 0;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
     width: 100%;
-    height: 100%;
-    position: relative;
-    background: black;
+    z-index: 9999;
 }
 
 .logo {
@@ -251,7 +254,7 @@
         }
         &:hover {
             a {
-                color: #3f84a4;
+                color: rgb(26, 188, 226);
             }
             .Submenu {
                 visibility: visible;
@@ -314,14 +317,32 @@
         }
     }
 }
-
-.SliderSec {
-    width: 100%;
+.mainSliderSec{
     height: 100%;
     position: relative;
-    overflow: hidden;
+    margin-top: 100px;
+    width: 100%;
+    .SlideItemOne{
+        background: rgba(0, 0, 0, 0) url("../images/slide.jpg") repeat scroll 0 0;
+        height: 500px;
+        width: 100%;
+        position: relative;
+        &::before{
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: rgba(120, 157, 186, .7);
+            width: 100%;
+            height: 100%; 
+        }
+    }
+    .SlideItemTwo{
+        background: rgba(0, 0, 0, 0) url("../images/slide.jpg") repeat scroll 0 0;
+    }
+    .SlideItemThree{
+        background: rgba(0, 0, 0, 0) url("../images/slide.jpg") repeat scroll 0 0;
+    }
 }
-
 .slider {
     width: 100%;
     height: 100%;
@@ -334,9 +355,6 @@
 }
 
 .SliderCon {
-    position: absolute;
-    right: 0;
-    top: 0;
     width: 100%;
     height: 100%;
 }
@@ -1720,7 +1738,7 @@
                 top: 50px; 
             }
             .OverBtn {
-/*                top: 50px;*/
+                /*                top: 50px;*/
             }
         }
     }
