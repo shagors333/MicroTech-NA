@@ -1,29 +1,5 @@
 
 $(document).ready(function () {
-    $('.sSlider').owlCarousel({
-        items: 1,
-        loop: true,
-        nav: false,
-        dots: false,
-        pagination: false,
-        touchDrag: false,
-        responsiveClass: true,
-        navigationText: false,
-        navigation: false,
-        autoPlay: true,
-        mouseDrag: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            640: {
-                items: 3
-            },
-            1000: {
-                items: 6
-            }
-        }
-    });
     /*Design Page Slidertwo**/
     $('.DesignSlideTwo').owlCarousel({
         items: 1,
@@ -149,5 +125,3 @@ $(document).ready(function () {
         $('html, body').animate({scrollTop: 0}, 800);
     });
 });
-
-
