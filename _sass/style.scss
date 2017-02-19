@@ -204,15 +204,21 @@
     background: #333;
     padding: 20px 0;
 }
-
+.signupSec{
+    padding: 11px 0 31px;
+}
 .MenuSec {
+
     background: transparent none repeat scroll 0 0;
     height: auto;
+
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 1;
+
+    z-index: 9999;
+
 }
 
 .logo {
@@ -254,7 +260,7 @@
         }
         &:hover {
             a {
-                color: #3f84a4;
+                color: rgb(26, 188, 226);
             }
             .Submenu {
                 visibility: visible;
@@ -317,83 +323,6 @@
         }
     }
 }
-
-.SliderSec {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-.slider {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    img {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-}
-
-.SliderCon {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.SliderMainCon {
-    width: 100%;
-    color: #fff;
-    padding: 75px 0 83px;
-    h1 {
-        font-weight: 600;
-        font-size: 50px;
-        color: #fff;
-        letter-spacing: 2px;
-        line-height: 70px;
-        text-transform: uppercase;
-    }
-    p {
-        color: #fff;
-        font-weight: 400;
-        letter-spacing: 1px;
-        width: 70%;
-        margin-bottom: 20px;
-        line-height: 28px;
-    }
-    a {
-        background: #2a80b9 none repeat scroll 0 0;
-        border-radius: 500px;
-        color: #fff;
-        display: inline-block;
-        margin-right: 10px;
-        overflow: hidden;
-        padding: 20px 35px;
-        text-transform: uppercase;
-        transition: all ease 600ms;
-        &:hover {
-            background: #fff;
-            color: black;
-        }
-    }
-}
-
-.SliderOverlay {
-    position: relative;
-    &:before {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        content: '';
-        left: 0;
-        top: 0;
-        background: rgba(66, 110, 145, 0.7);
-    }
-}
-
 .CmFooterSec {
     background: #242424 none repeat scroll 0 0;
     height: 100%;
