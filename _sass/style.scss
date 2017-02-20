@@ -1293,8 +1293,9 @@ $desktop-a: 48em;
         position: relative;
         text-transform: uppercase;
         width: 246px;
-        display: inline-block;
         z-index: 999;
+        display: block;
+        float: right;
         overflow: hidden;
         &:before {
             position: absolute;
@@ -1400,7 +1401,8 @@ $desktop-a: 48em;
 
 .DesignUpBtn {
     background: #0fa2da none repeat scroll 0 0;
-    border-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
     color: #fff;
     display: inline-block;
     font-size: 17px;
@@ -2207,10 +2209,50 @@ $desktop-a: 48em;
 
     }
 }
-
-/*===========================end home slider=======================*/
-
-/*===========================end home slider=======================*/
-
+.request_btn{
+    height: 100%;
+    padding: 45px 0;
+    width: 100%;
+    h2{
+        font-size: 30px; 
+        padding: 0 0 30px;
+    }
+    .reqestBtn {
+        background: #5db845 none repeat scroll 0 0;
+        border-radius: 9px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 700;
+        height: 57px;
+        margin-left: 42px;
+        padding: 15px 43px;
+        position: relative;
+        text-transform: uppercase;
+        width: 246px;
+        z-index: 999;
+        display: inline-block;
+        overflow: hidden;
+        &:before {
+            position: absolute;
+            content: '';
+            width: 246px;
+            height: 10px;
+            border-radius: 9px;
+            left: 0;
+            top: 0;
+            background: rgba(109, 200, 85, 0.5);
+            transition: all ease 600ms;
+            visibility: hidden;
+            opacity: 0;
+        }
+        &:hover:before {
+            visibility: visible;
+            opacity: 1;
+            transition: all 0.25s cubic-bezier(.66,.36,.17,.91);
+            height: 57px;
+            top: 57px;
+        }
+    }
+}
 /*----------------------------rasel----------------------*/
 
