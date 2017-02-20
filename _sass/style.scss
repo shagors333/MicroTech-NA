@@ -2202,3 +2202,68 @@ $desktop-a: 48em;
 
 /*----------------------------rasel----------------------*/
 
+.ourWork{
+    position: relative;
+    .mainWork{
+        padding: 50px;
+        position: relative;
+        &:before{
+            border-bottom: 1px dotted #ddd;
+            bottom: -158px;
+            content: "";
+            height: 1px;
+            left: 0;
+            position: absolute;
+            width: 90%;
+        }
+
+        .workImg{
+            position: relative;
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+
+            img{
+                width: auto;
+                height: 100%;
+            }
+        }
+        .workContent h2{
+            font-size: 1.125em;
+            font-weight: 700;
+            color: #418FDB;
+            margin-bottom: 12px;
+            margin-top: 8px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.6;
+            text-rendering: optimizelegibility;
+            text-align: justify;
+        }
+    }
+}
+.paddingLeft20{
+    padding-left: 48px;
+}
+
+
+
+/*--------------symple title section start------------*/
+.sympleTtileSec{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #335AAC;
+    padding: 50px 0;
+    .sympleTitle h2{
+        font-size: 30px;
+        font-weight: 400;
+        color: #fff;
+        line-height: 28px;
+    }
+}
+/*--------------symple title section end------------*/
+/*----------------------------rasel----------------------*/
+
