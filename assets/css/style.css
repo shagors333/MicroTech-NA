@@ -428,30 +428,36 @@ ul, li {
   padding-top: 20px; }
 
 .serviceContent {
+  background: #fff none repeat scroll 0 0;
+  height: auto;
+  padding-bottom: 36px;
+  padding-top: 15px;
   position: relative;
   width: 100%;
-  height: auto; }
+  border-radius: 6px;
+  height: 350px; }
   .serviceContent:hover .SerIcon i {
     background: #32cce2;
     border-color: #32cce2;
     color: #fff; }
 
-.serText h2 {
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: capitalize;
-  color: #333;
-  font-family: Open Sans, sans-serif;
-  margin-bottom: 7px;
-  transition: all ease 500ms; }
-  .serText h2:hover {
-    color: #32cce2; }
-
-.serText p {
-  color: #888;
-  font-size: 13px;
-  font-family: Open Sans, sans-serif;
-  line-height: 22px; }
+.serText {
+  padding: 17px 0; }
+  .serText h2 {
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    font-family: Open Sans, sans-serif;
+    margin-bottom: 11px;
+    transition: all ease 500ms; }
+    .serText h2:hover {
+      color: #32cce2; }
+  .serText p {
+    color: #888;
+    font-size: 13px;
+    font-family: Open Sans, sans-serif;
+    line-height: 22px; }
 
 .commSr {
   display: none; }
@@ -1945,16 +1951,14 @@ ul, li {
     background: #ff7264; }
 
 .SerIcon i {
-  border: 2px solid #32cce2;
-  padding: 20px;
-  color: #32cce2;
-  transition: all ease 500ms;
-  margin-top: 20px;
-  margin-bottom: 13px;
-  font-size: 20px;
   border: 1px solid #32cce2;
   border-radius: 50%;
-  padding: 15px; }
+  color: #32cce2;
+  font-size: 52px;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  padding: 42px;
+  transition: all 500ms ease 0s; }
 
 .indBtn a {
   background: #fff none repeat scroll 0 0;
