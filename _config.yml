@@ -8,6 +8,8 @@ exclude: ["node_modules",
 "package.json", 
 "bower_components",
 "bower.json",
+"nbproject",
+".netbeans.xml",
 "README.md"]
 #markdown: redcarpet
 #highlighter: pygments # or rouge or null
