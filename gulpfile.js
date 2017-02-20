@@ -4,7 +4,7 @@ var sass        = require('gulp-sass');
 //var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 
-var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+//var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
@@ -15,7 +15,9 @@ var messages = {
 gulp.task('jekyll-build', function (done) {
     console.log('jekyll-build =>');
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+    //return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+    return cp.spawn( 'C:\\tools\\ruby23\\bin\\jekyll.bat' , ['build'], {stdio: 'inherit'})  
+        .on('error', (error) => gutil.log(gutil.colors.red(error.message))) 
         .on('close', done);
 });
 
