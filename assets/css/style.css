@@ -428,30 +428,36 @@ ul, li {
   padding-top: 20px; }
 
 .serviceContent {
+  background: #fff none repeat scroll 0 0;
+  height: auto;
+  padding-bottom: 36px;
+  padding-top: 15px;
   position: relative;
   width: 100%;
-  height: auto; }
+  border-radius: 6px;
+  height: 350px; }
   .serviceContent:hover .SerIcon i {
     background: #32cce2;
     border-color: #32cce2;
     color: #fff; }
 
-.serText h2 {
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: capitalize;
-  color: #333;
-  font-family: Open Sans, sans-serif;
-  margin-bottom: 7px;
-  transition: all ease 500ms; }
-  .serText h2:hover {
-    color: #32cce2; }
-
-.serText p {
-  color: #888;
-  font-size: 13px;
-  font-family: Open Sans, sans-serif;
-  line-height: 22px; }
+.serText {
+  padding: 17px 0; }
+  .serText h2 {
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #333;
+    font-family: Open Sans, sans-serif;
+    margin-bottom: 11px;
+    transition: all ease 500ms; }
+    .serText h2:hover {
+      color: #32cce2; }
+  .serText p {
+    color: #888;
+    font-size: 13px;
+    font-family: Open Sans, sans-serif;
+    line-height: 22px; }
 
 .commSr {
   display: none; }
@@ -1036,6 +1042,15 @@ ul, li {
     font-weight: 300;
     line-height: 1.4;
     padding-top: 24px; }
+  .DesignSliderCon ul {
+    padding-left: 10px;
+    padding-top: 10px; }
+  .DesignSliderCon li {
+    font-size: 16px;
+    padding-top: 10px; }
+    .DesignSliderCon li span {
+      margin-right: 10px;
+      color: #2066ab; }
 
 .DeSliderConImage {
   width: 100%;
@@ -1390,8 +1405,9 @@ ul, li {
     position: relative;
     text-transform: uppercase;
     width: 246px;
-    display: inline-block;
     z-index: 999;
+    display: block;
+    float: right;
     overflow: hidden; }
     .DiscusBtnCon .DiscusBTn:before {
       position: absolute;
@@ -1479,7 +1495,8 @@ ul, li {
 
 .DesignUpBtn {
   background: #0fa2da none repeat scroll 0 0;
-  border-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
   color: #fff;
   display: inline-block;
   font-size: 17px;
@@ -1934,16 +1951,14 @@ ul, li {
     background: #ff7264; }
 
 .SerIcon i {
-  border: 2px solid #32cce2;
-  padding: 20px;
-  color: #32cce2;
-  transition: all ease 500ms;
-  margin-top: 20px;
-  margin-bottom: 13px;
-  font-size: 20px;
   border: 1px solid #32cce2;
   border-radius: 50%;
-  padding: 15px; }
+  color: #32cce2;
+  font-size: 52px;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  padding: 42px;
+  transition: all 500ms ease 0s; }
 
 .indBtn a {
   background: #fff none repeat scroll 0 0;
@@ -2143,6 +2158,45 @@ ul, li {
       .HomeSlide .slideContent a:hover {
         background: #009DE0; }
 
-/*===========================end home slider=======================*/
-/*===========================end home slider=======================*/
+.request_btn {
+  height: 100%;
+  padding: 45px 0;
+  width: 100%; }
+  .request_btn h2 {
+    font-size: 30px;
+    padding: 0 0 30px; }
+  .request_btn .reqestBtn {
+    background: #5db845 none repeat scroll 0 0;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    height: 57px;
+    margin-left: 42px;
+    padding: 15px 43px;
+    position: relative;
+    text-transform: uppercase;
+    width: 246px;
+    z-index: 999;
+    display: inline-block;
+    overflow: hidden; }
+    .request_btn .reqestBtn:before {
+      position: absolute;
+      content: '';
+      width: 246px;
+      height: 10px;
+      border-radius: 9px;
+      left: 0;
+      top: 0;
+      background: rgba(109, 200, 85, 0.5);
+      transition: all ease 600ms;
+      visibility: hidden;
+      opacity: 0; }
+    .request_btn .reqestBtn:hover:before {
+      visibility: visible;
+      opacity: 1;
+      transition: all 0.25s cubic-bezier(0.66, 0.36, 0.17, 0.91);
+      height: 57px;
+      top: 57px; }
+
 /*----------------------------rasel----------------------*/

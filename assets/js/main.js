@@ -3,7 +3,7 @@ $(document).ready(function () {
     /*Design Page Slidertwo**/
     $('.DesignSlideTwo').owlCarousel({
         items: 1,
-        loop: true,
+        loop: false,
         nav: false,
         dots: false,
         pagination: true,
