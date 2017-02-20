@@ -269,16 +269,39 @@ nav, ul, li, a, h1, h2, h3, h4, h5, h6, table, tr, td, p, span, label {
     color: #fff;
     padding: 5px 0 5px 6px;
 }
-
+.Mfix {
+    height: 100px;
+}
 .fixedHeader {
     position: fixed;
     left: 0;
     top: 0;
     z-index: 9999;
     width: 100%;
+    height: auto;
     background: #000;
+    transition: 1s;
+    opacity: .9;
+    .logo{
+        a{
+            font-size: 32px;
+        }
+        p{
+            display: none;
+        }
+    }
+    .socail{
+        padding: 14px 0 !important;
+    }
+    .Menu ul li{
+        padding: 20px 0;
+        &:hover{
+            .Submenu {
+                top: 60px;
+            }
+        }
+    }
 }
-
 /*==========================
 /Fixed all Element end here
 =============================*/
