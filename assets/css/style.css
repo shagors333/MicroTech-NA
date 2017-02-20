@@ -1036,6 +1036,15 @@ ul, li {
     font-weight: 300;
     line-height: 1.4;
     padding-top: 24px; }
+  .DesignSliderCon ul {
+    padding-left: 10px;
+    padding-top: 10px; }
+  .DesignSliderCon li {
+    font-size: 16px;
+    padding-top: 10px; }
+    .DesignSliderCon li span {
+      margin-right: 10px;
+      color: #2066ab; }
 
 .DeSliderConImage {
   width: 100%;
