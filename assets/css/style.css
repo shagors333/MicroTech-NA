@@ -174,15 +174,21 @@
   background: #333;
   padding: 20px 0; }
 
+.signupSec {
+  padding: 11px 0 31px; }
+
 .MenuSec {
+  background: transparent;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
   width: 100%;
-  height: 100%;
-  position: relative;
-  background: black; }
+  z-index: 9999; }
 
 .logo {
   width: 100%;
-  height: 100%; }
+  height: auto; }
   .logo a {
     font-size: 40px;
     color: #fff;
@@ -213,13 +219,11 @@
       font-size: 13px;
       transition: all ease 600ms; }
     .Menu ul li:hover a {
-      color: #3f84a4; }
+      color: #1abce2; }
     .Menu ul li:hover .Submenu {
       visibility: visible;
       opacity: 1;
       top: 100px; }
-    .Menu ul li.active a {
-      color: #32cce2; }
     .Menu ul li .Submenu li {
       margin: 0;
       display: block;
@@ -263,71 +267,6 @@
     transition: all ease 600ms; }
     .socail a:hover {
       color: #fff; }
-
-.SliderSec {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden; }
-
-.slider {
-  width: 100%;
-  height: 100%;
-  position: relative; }
-  .slider img {
-    width: 100%;
-    height: 100%;
-    overflow: hidden; }
-
-.SliderCon {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100%;
-  height: 100%; }
-
-.SliderMainCon {
-  width: 100%;
-  color: #fff;
-  padding: 75px 0 83px; }
-  .SliderMainCon h1 {
-    font-weight: 600;
-    font-size: 50px;
-    color: #fff;
-    letter-spacing: 2px;
-    line-height: 70px;
-    text-transform: uppercase; }
-  .SliderMainCon p {
-    color: #fff;
-    font-weight: 400;
-    letter-spacing: 1px;
-    width: 70%;
-    margin-bottom: 20px;
-    line-height: 28px; }
-  .SliderMainCon a {
-    background: #2a80b9 none repeat scroll 0 0;
-    border-radius: 500px;
-    color: #fff;
-    display: inline-block;
-    margin-right: 10px;
-    overflow: hidden;
-    padding: 20px 35px;
-    text-transform: uppercase;
-    transition: all ease 600ms; }
-    .SliderMainCon a:hover {
-      background: #fff;
-      color: black; }
-
-.SliderOverlay {
-  position: relative; }
-  .SliderOverlay:before {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: '';
-    left: 0;
-    top: 0;
-    background: rgba(66, 110, 145, 0.7); }
 
 .CmFooterSec {
   background: #242424 none repeat scroll 0 0;
@@ -1024,11 +963,10 @@
     display: inline-block;
     font-size: 42px;
     font-weight: 700; }
-  .DiscusBtnCon a {
+  .DiscusBtnCon .DiscusBTn {
     background: #88ba00 none repeat scroll 0 0;
     border-radius: 9px;
     color: #fff;
-    display: inline-block;
     font-size: 17px;
     font-weight: 700;
     height: 57px;
@@ -1037,25 +975,27 @@
     position: relative;
     text-transform: uppercase;
     width: 246px;
+    display: inline-block;
     z-index: 999;
     overflow: hidden; }
-    .DiscusBtnCon a:before {
+    .DiscusBtnCon .DiscusBTn:before {
       position: absolute;
       content: '';
       width: 246px;
-      height: 0;
+      height: 10px;
       border-radius: 9px;
       left: 0;
       top: 0;
-      z-index: 9;
       background: rgba(157, 211, 10, 0.4);
       transition: all ease 600ms;
       visibility: hidden;
       opacity: 0; }
-    .DiscusBtnCon a:hover:before {
+    .DiscusBtnCon .DiscusBTn:hover:before {
       visibility: visible;
       opacity: 1;
-      height: 57px; }
+      transition: all 0.25s cubic-bezier(0.66, 0.36, 0.17, 0.91);
+      height: 57px;
+      top: 57px; }
   .DiscusBtnCon > a > i {
     padding-left: 19px; }
 
@@ -1185,7 +1125,7 @@
 .hireme {
   background: #fff;
   padding: 15px;
-  margin-top: 80px; }
+  margin-top: 90px; }
   .hireme h3 {
     font-size: 20px;
     font-weight: 400;
@@ -1209,10 +1149,13 @@
   width: 100%;
   height: 100%;
   position: relative;
-  padding-bottom: 100px; }
+  padding-bottom: 10px; }
 
 .Apadding35 {
-  padding-top: 45px; }
+  padding: 45px 0; }
+  .Apadding35 img {
+    width: 100%;
+    height: auto; }
 
 .BGrowR {
   background: #f6f6f6; }
@@ -1241,10 +1184,10 @@
   height: auto; }
   .expImg img {
     width: 100%;
-    height: 100%; }
+    height: auto; }
 
 .aboutHead {
-  padding: 54px 0; }
+  padding: 55px 0; }
   .aboutHead h2 {
     font-weight: 300; }
     .aboutHead h2 span {
@@ -1281,7 +1224,7 @@
     font-weight: 900; }
 
 .countryHead2 {
-  padding: 37px 0 10px; }
+  padding: 80px 0 20px; }
 
 .hoby {
   padding: 4px; }
@@ -1437,6 +1380,10 @@
   height: 100%;
   position: relative;
   background: #ff5d4c; }
+  .MoreWork .folioImg:hover .fOverText {
+    top: 50px; }
+  .MoreWork .folioImg:hover .OverBtn {
+    /*                top: 50px;*/ }
 
 .workHeading {
   padding: 70px 0 75px; }
@@ -1707,8 +1654,80 @@
   color: #333;
   float: left;
   font-size: 16px;
-  height: 44px;
+  height: 45px;
   margin-bottom: 12px;
   padding-left: 13px;
   text-transform: capitalize;
-  width: 100%; }
+  width: 100%;
+  border-radius: 3px;
+  -moz-border-radius: 3px; }
+
+.msgboxwork {
+  height: 200px;
+  resize: none;
+  padding-top: 15px;
+  border-radius: 3px; }
+
+#SkypeButton_Call_apmsglobal_1_paraElement img {
+  height: auto;
+  margin-top: 8px !important;
+  width: 77px; }
+
+/*Rasel be menu*/
+/*
+----------------------------rasel----1-------------------*/
+/*===========================start home slider=======================*/
+.HomeSlide {
+  position: relative;
+  width: 100;
+  height: auto;
+  padding: 200px 0;
+  overflow: hidden;
+  background: url(../images/banner.jpg) no-repeat center center/cover; }
+  .HomeSlide:before {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .HomeSlide .slideContent {
+    position: relative; }
+    .HomeSlide .slideContent h1 {
+      font-size: 56px;
+      line-height: 64px;
+      color: #fff;
+      text-transform: capitalize;
+      letter-spacing: 1.5px;
+      font-weight: 300;
+      margin-bottom: 14px; }
+    .HomeSlide .slideContent p {
+      color: #FFF;
+      letter-spacing: 0.03em;
+      line-height: 1.2em;
+      opacity: 0.95;
+      text-align: left;
+      font-size: 24px;
+      font-weight: 300;
+      margin-bottom: 40px; }
+    .HomeSlide .slideContent a {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #fff;
+      border: 2px solid #009DE0;
+      padding: 10px 30px;
+      border-radius: 4px;
+      margin-right: 20px;
+      transition: all ease 500ms; }
+      .HomeSlide .slideContent a:first-child {
+        background: #009DE0; }
+        .HomeSlide .slideContent a:first-child:hover {
+          background: transparent; }
+      .HomeSlide .slideContent a:hover {
+        background: #009DE0; }
+
+/*===========================end home slider=======================*/
+/*===========================end home slider=======================*/
+/*----------------------------rasel----------------------*/

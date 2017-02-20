@@ -205,21 +205,25 @@
     padding: 20px 0;
 }
 .signupSec{
-    padding: 11px 0 30px;
+    padding: 11px 0 31px;
 }
 .MenuSec {
-    background: rgb(15, 124, 173) none repeat scroll 0 0;
+
+    background: transparent;
     height: 100px;
+
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
+
     z-index: 9999;
+
 }
 
 .logo {
     width: 100%;
-    height: 100%;
+    height: auto;
     a {
         font-size: 40px;
         color: #fff;
@@ -263,9 +267,6 @@
                 opacity: 1;
                 top: 100px;
             }
-        }
-        &.active a {
-            color: #32cce2;
         }
         .Submenu li {
             margin: 0;
@@ -1365,17 +1366,19 @@
     width: 100%;
     height: 100%;
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 }
 
 .Apadding35 {
-    padding-top: 45px;
+    padding: 45px 0;
+    img{
+        width: 100%;
+        height: auto;
+    }
 }
-
 .BGrowR {
     background: #f6f6f6;
 }
-
 .experienceMic {
     h2 {
         color: #507cbe;
@@ -1404,12 +1407,12 @@
     height: auto;
     img {
         width: 100%;
-        height: 100%;
+        height: auto;
     }
 }
 
 .aboutHead {
-    padding: 54px 0;
+    padding: 55px 0;
     h2 {
         font-weight: 300;
         span {
@@ -1985,5 +1988,94 @@
     resize: none;
     padding-top: 15px;
     border-radius: 3px;
-    -moz-border-radius: 3px;
+
 }
+
+#SkypeButton_Call_apmsglobal_1_paraElement img{
+    height: auto;
+    margin-top: 8px !important;
+    width: 77px;
+}
+/*Rasel be menu*/
+
+
+
+/*
+----------------------------rasel----1-------------------*/
+
+/*===========================start home slider =======================*/
+
+
+.HomeSlide{
+    position: relative;
+    width: 100;
+    height: auto;
+
+    padding: 200px 0;
+    overflow: hidden;
+    background: url(../images/banner.jpg) no-repeat center center / cover;
+
+    &:before{
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .5);
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+
+    }
+    .slideContent{
+        position: relative;
+        h1{
+            font-size: 56px;
+            line-height: 64px;
+            color: #fff;
+            text-transform: capitalize;
+            letter-spacing: 1.5px;
+            font-weight: 300;
+            margin-bottom: 14px;
+        }
+        p{
+
+            color: #FFF;
+
+            letter-spacing: 0.03em;
+            line-height: 1.2em;
+            opacity: 0.95;
+            text-align: left;
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+        a{
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+            border: 2px solid #009DE0;
+            padding: 10px 30px;
+            border-radius: 4px;
+            margin-right: 20px;
+            transition: all ease 500ms;
+            &:first-child{
+                background: #009DE0;
+                &:hover{
+                    background: transparent;
+                }
+            }
+            &:hover{
+                background: #009DE0;
+            }
+
+        }
+
+    }
+}
+
+/*===========================end home slider=======================*/
+
+/*===========================end home slider=======================*/
+
+/*----------------------------rasel----------------------*/
+
