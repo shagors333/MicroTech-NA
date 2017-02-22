@@ -111,7 +111,7 @@ $(document).ready(function () {
 
     /*back to top by shagor*/
     $(window).on('scroll', function () {
-        if ($(window).scrollTop() > 100)
+        if ($(window).scrollTop() > 1660)
         {
             $(".BackTo").fadeIn('slow');
         } else

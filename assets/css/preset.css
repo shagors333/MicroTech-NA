@@ -501,7 +501,7 @@ nav, ul, li, a, h1, h2, h3, h4, h5, h6, table, tr, td, p, span, label {
 /Fixed all Element Start here
 =============================*/
 .BackTo {
-  background: #000 none repeat scroll 0 0;
+  background: #333333 none repeat scroll 0 0;
   bottom: 50px;
   color: #979797;
   font-size: 20px;
