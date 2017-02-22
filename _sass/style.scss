@@ -137,26 +137,27 @@ $desktop-a: 48em;
     padding: 80px 0;
     width: 100%;
     height: auto;
-    background: #f1f1f1;
-    padding-top: 20px;
+    background: #fafafa;
 }
-
 .serviceContent {
-    background: #fff none repeat scroll 0 0;
-    height: auto;
-    padding-bottom: 36px;
-    padding-top: 15px;
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-radius: 6px;
+    box-shadow: 2px 1px 4px #bdbdbd;
+    height: 370px;
+    padding: 15px 10px 36px 12px;
     position: relative;
     width: 100%;
-    border-radius: 6px;
-    height: 350px;
     &:hover .SerIcon i {
         background: #32cce2;
         border-color: #32cce2;
         color: #fff;
     }
+    .lockicon{
+        padding-bottom: 40px;
+        padding-left: 47px;
+        padding-right: 47px;
+    }
 }
-
 .serText {
     padding: 17px 0;
     h2 {
@@ -188,7 +189,7 @@ $desktop-a: 48em;
     height: 500px;
     position: relative;
     padding: 50px 0;
-    background: url(../images/index.jpg) no-repeat center (center / cover);
+    background: url(../images/industybd.jpg) no-repeat center (center / cover);
     &:before {
         width: 100%;
         height: 100%;
@@ -201,10 +202,10 @@ $desktop-a: 48em;
 }
 
 .indMainItem {
-    background: #1a7ead none repeat scroll 0 0;
-    padding: 19px 0 50px;
+    background: rgba(15, 124, 174, .5);
+    padding: 30px 16px 30px 25px;
+    border-radius: 7px;
 }
-
 .industryTitle {
     h2 {
         font-size: 57px;
@@ -220,7 +221,9 @@ $desktop-a: 48em;
         margin-bottom: 57px;
     }
 }
-
+.DiscusButton{
+    padding: 40px 0;
+}
 .indItem {
     cursor: pointer;
     float: left;
@@ -239,7 +242,7 @@ $desktop-a: 48em;
         color: #fff;
     }
     &.text-center:hover {
-        box-shadow: 0 2px 9px black;
+        box-shadow: 0px 1px 3px #424242;
     }
 }
 
@@ -417,11 +420,12 @@ $desktop-a: 48em;
 
 .Submenu {
     width: 219px;
-    height: 170px;
+    height: auto;
     background: black;
     position: absolute;
     left: 0;
     top: 100px;
+    padding-bottom: 7px;
     z-index: 999;
     visibility: hidden;
     opacity: 0;
@@ -644,7 +648,7 @@ $desktop-a: 48em;
 }
 
 .PerFor {
-    padding: 77px 0 95px;
+    padding: auto;
     h2 {
         text-transform: none;
         font-size: 55px;
@@ -830,10 +834,14 @@ $desktop-a: 48em;
 
 .DesignSlider {
     width: 100%;
-    height: 100%;
+    height: 720px;
     position: relative;
 }
-
+.DesignSlider3{
+    width: 100%;
+    height: 100% !important;
+    position: relative;
+}
 .DesignHead {
     padding: 50px 0;
     h2 {
@@ -903,11 +911,11 @@ $desktop-a: 48em;
     width: 60px;
     height: 128px;
     display: block;
-    top: 33%;
+    top: 17%;
     &:after {
         position: absolute;
         content: '';
-        right: 0;
+        left: 64px;
         top: 0;
         width: 100%;
         height: 100%;
@@ -918,12 +926,12 @@ $desktop-a: 48em;
 .DesignleftLeftCarosul1 {
     display: block;
     height: 128px;
-    top: 33%;
+    top: 17%;
     width: 128px;
     &:after {
         position: absolute;
         content: '';
-        left: 0;
+        right: 64px;
         top: 0;
         width: 100%;
         height: 100%;
@@ -1085,7 +1093,7 @@ $desktop-a: 48em;
     height: 100%;
     position: relative;
     border: 1px solid #ddd;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .DesingSliderTwoHeading {
@@ -1943,7 +1951,12 @@ $desktop-a: 48em;
     position: relative;
     overflow: hidden;
 }
-
+.folioimgContentSagor{
+    padding: 100px 0 !important;
+}
+.folioimgContentSagor1{
+    padding: 66px 0 !important;
+}
 .folioimgContent {
     background: #7fa588 none repeat scroll 0 0;
     padding: 214.5px 0;
@@ -1972,11 +1985,13 @@ $desktop-a: 48em;
 .indBtn a {
     background: #fff none repeat scroll 0 0;
     border-radius: 44px;
+    display: inline-block;
     font-size: 16px;
     font-weight: 700;
+    margin-top: -24px;
     padding: 14px 54px;
     text-transform: uppercase;
-    transition: all ease 600ms;
+    transition: all 600ms ease 0s;
     &:hover {
         background: #abda2e;
     }
@@ -1997,13 +2012,11 @@ $desktop-a: 48em;
 }
 
 .footerwedget p {
+    color: #fff;
     font-size: 12px;
     font-weight: 400;
-    text-transform: capitalize;
-    color: #fff;
     letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-top: 13px;
+    margin-top: 7px;
     a {
         color: #32cce2;
     }
@@ -2261,7 +2274,11 @@ $desktop-a: 48em;
 /*----------------------------rasel----------------------*/
 
 .ourWork{
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 45px;
     position: relative;
+    width: 100%;
     .mainWork{
         padding: 50px;
         position: relative;
@@ -2320,6 +2337,16 @@ $desktop-a: 48em;
         font-weight: 400;
         color: #fff;
         line-height: 28px;
+    }
+}
+.scrolls.workwith > a {
+    border: 1px solid #1abce2;
+    color: #1abce2;
+    padding: 5px;
+    transition: all ease 200ms;
+    &:hover{
+        color: #88BA00;
+        border-color: #88BA00;
     }
 }
 /*--------------symple title section end------------*/
