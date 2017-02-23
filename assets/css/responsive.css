@@ -65,7 +65,7 @@
     }
     .HomeSlide .slideContent p{
         font-size: 14px;
-        line-height: auto;
+        line-height: 28px;
     }
     .serviceSec{
         padding: 60px 0;
@@ -81,8 +81,8 @@
         font-size: 14px;
     }
     .indItem{
-        margin-left: 14%;
-        margin-right: 15%;
+        width: 100%;
+        margin: 0 auto;
     }
     .industrySec{
         height: 100%;
@@ -145,6 +145,60 @@
     .FSerMenu a{
         display: inline-block;
     }
+    /*About_us page Responsive css include Start here*/
+    .SpBanerSingle h2{
+        font-size: 45px;
+    }
+    .DesignHead h2{
+        font-size: 29px;
+    }
+    .aboutHead h3{
+        font-size: 16px;
+    }
+    .aboutHead {
+        padding: 36px 0;
+    }
+    .experienceMic h2{
+        font-size: 20px;
+    }
+    .experienceMic p{
+        font-size: 13px;
+    }
+    .Apadding35 {
+        padding: 15px 0;
+    }
+    .absingleBlog h2{
+        font-size: 28px;
+    }
+    .absingleBlog h2 span{
+        font-size: 33px;
+    }
+    .absingleBlog p{
+        padding: 0;
+        font-size: 13px;
+    }
+    .abBlogSec{
+        padding-bottom: 40px;
+    }
+    .countryHead h2{
+        font-size: 24px;
+    }
+    .SingleCountry h2{
+        font-size: 12px;
+    }
+    .countryHead2{
+        padding-top: 20px;
+    }
+    .AbCountrySec{
+        padding-bottom: 15px;
+    }
+    .DePSingUpBtn h2{
+        font-size: 17px;
+    }
+    .DePSingUpBtn{
+        padding-top: 10px;
+    }
+    /*About_us page Responsive css include End here*/
 }
 @media (min-width: 360px) and (max-width: 640px) {
     .logo {
